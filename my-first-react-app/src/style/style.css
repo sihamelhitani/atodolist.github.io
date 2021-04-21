@@ -1,0 +1,70 @@
+.App {
+  background-color: #fcd1d1;
+  color: #325288;
+  font-weight: bold;
+  font-family: monospace;
+  margin: auto;
+  width: 50%;
+  border: 3px solid #f39189;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+  min-height: 400px;
+}
+input {
+  margin: 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: monospace;
+}
+body {
+  background-color: #ece2e1;
+}
+
+ul {
+  margin-top: 6px;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+  background-color: #9e9d89;
+  border-radius: 12px;
+  padding: 20px;
+  min-height: 100px;
+  opacity: 60%;
+}
+button {
+  font-family: monospace;
+  height: 38px;
+  border-radius: 10px;
+  background-color: #c64756;
+  opacity: 100%;
+}
+.line {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleteButton {
+  height: 20px;
+
+  font-size: 10px;
+  background: #fad586;
+  padding: 2px;
+  margin-block-end: 4px;
+}
+.theTasks {
+  /*background-color: #e4bad4;*/
+  border-radius: 15px;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  min-height: 30px;
+}
+li {
+  color: black;
+}
